@@ -3,17 +3,17 @@ exports.getAllTasks = (req, res) => {
 };
 
 exports.createTask = (req, res) => {
-  res.send("create task");
+  res.json(req.body);
 };
 
 exports.getTask = (req, res) => {
-  res.send("get a single task");
+  res.json(req.params.id);
 };
 
 exports.updateTask = (req, res) => {
-  res.send("update a single task");
+  res.json(req.params.id);
 };
 
 exports.deleteTask = (req, res) => {
-  res.send("delete a single task");
+  res.json(req.params.id);
 };
