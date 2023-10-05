@@ -1,10 +1,10 @@
 <h1 align="center">
-  <br>
+  
   <img  src="Task_Manager.png" />
-  <br>
+  
 </h1>
 
-<h6 align="center">A simple task manager API that is built with _NodeJS_, _ExpressJS_ and _MongoDB_</h6>
+<h6 align="center">A simple task manager API that is built with <strong>NodeJS</strong>, <strong>ExpressJS</strong> and <strong>MongoDB</strong></h6>
 
 <p align="center">
 <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg" width="36" height="36" alt="NodeJS" /></a><a href="https://expressjs.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg" width="36" height="36" alt="Express" /></a><a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg" width="36" height="36" alt="MongoDB" /></a>
