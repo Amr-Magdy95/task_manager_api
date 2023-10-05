@@ -7,14 +7,14 @@ A simple task manager API that is built with _NodeJS_, _ExpressJS_ and _MongoDB_
 ## INSTALLATION
 
 1. Clone the repository to your localmachine
-   `>git clone https://github.com/Amr-Magdy95/task_manager_api`
+   > `git clone https://github.com/Amr-Magdy95/task_manager_api`
 2. Change the directory to that of the project
-   `>cd task_manager_api`
+   > `cd task_manager_api`
 3. Create .env file and insert MONGO_URI inside of it
 4. Install all packages
-   `>npm i`
+   > `npm i`
 5. Run the development server and expect the server to run on port 5000
-   `>npm run dev`
+   > `npm run dev`
 
 ---
 
