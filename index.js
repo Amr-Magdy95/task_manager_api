@@ -5,11 +5,10 @@ require("dotenv").config();
 const connectDB = require("./db/connect");
 
 // middleware
+app.use(express.static("./public"));
 app.use(express.json());
 // routes
-app.get("/", (req, res) => {
-  res.status(200).send("<h1>Hello</h1>");
-});
+
 app.use("/api/v1/tasks", require("./routes/tasks"));
 
 const start = async () => {
