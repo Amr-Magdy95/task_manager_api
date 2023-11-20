@@ -9,6 +9,9 @@ const cors = require("cors");
 app.use(cors());
 app.use(express.json());
 // routes
+app.get("/", (req, res) => {
+  res.send("<h1>Task Manager API</h1> <a href='./api/v1/tasks'>All Tasks</a>");
+});
 
 app.use("/api/v1/tasks", require("./routes/tasks"));
 
